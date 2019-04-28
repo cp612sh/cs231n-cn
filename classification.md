@@ -61,8 +61,8 @@ This is an introductory lecture designed to introduce people from outside of Com
 
 <a name='nn'></a>
 
-### Nearest Neighbor Classifier
-As our first approach, we will develop what we call a **Nearest Neighbor Classifier**. This classifier has nothing to do with Convolutional Neural Networks and it is very rarely used in practice, but it will allow us to get an idea about the basic approach to an image classification problem. 
+### Nearest Neighbor Classifier 最近相邻分类器
+As our first approach, we will develop what we call a **Nearest Neighbor Classifier**. This classifier has nothing to do with Convolutional Neural Networks and it is very rarely used in practice, but it will allow us to get an idea about the basic approach to an image classification problem. 作为我们的第一次尝试，我们将开发一款**最近相邻分类器**。该分类器和卷积神经网络没有任何的关系并且在实践中几乎没有得到使用，但它可以让我们对于图像分类问题有一个基础的解决方案。
 
 **Example image classification dataset: CIFAR-10.** One popular toy image classification dataset is the <a href="http://www.cs.toronto.edu/~kriz/cifar.html">CIFAR-10 dataset</a>. This dataset consists of 60,000 tiny images that are 32 pixels high and wide. Each image is labeled with one of 10 classes (for example *"airplane, automobile, bird, etc"*). These 60,000 images are partitioned into a training set of 50,000 images and a test set of 10,000 images. In the image below you can see 10 random example images from each one of the 10 classes:
 
